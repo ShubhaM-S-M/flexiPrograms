@@ -1,0 +1,12 @@
+public class Increment
+{
+	public static void main(String[] args)
+	{
+		int a=10;
+		System.out.println("a="+a);
+		System.out.println("Pre-Increment a="+(++a));
+		System.out.println("Post-Increment a="+(a++));
+		System.out.println("Final a="+a);		
+		
+	}
+}
