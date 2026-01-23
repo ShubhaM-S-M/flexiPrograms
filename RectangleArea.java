@@ -6,9 +6,9 @@ public class RectangleArea
 		int len, br, area;
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter length :");
-		len=sc.nextInt();
+		len=sc.nextInt();//input length
 		System.out.println("Enter breadth :");
-		br=sc.nextInt();
+		br=sc.nextInt();//input breadth
 		area=len*br;
 		System.out.println("Area="+area);
 	}
