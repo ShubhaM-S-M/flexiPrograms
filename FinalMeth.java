@@ -2,14 +2,14 @@ class Parent
 {
 	final void display()
 	{
-		System.out.println("Cannot be over ridden");
+		System.out.println("Nuh uh");
 	}
 }
 class Child extends Parent
 {
 	void diplay()
 	{
-		System.out.println("How did u do this?");
+		System.out.println("I am overriding this");
 	}
 }
 class FinalMeth
