@@ -14,13 +14,18 @@ class Square extends Shape
 		float area = s*s;
 		System.out.println("Area="+ area);
 	}
+	void display()
+	{
+		System.out.println("This is square");
+	}
 }
 class AbstractClass
 {
 	public static void main(String[] args)
 	{
-		Shape s = new Square();
+		Square s = new Square();
 		s.area();
 		s.draw();
+		s.display();
 	}
 }
