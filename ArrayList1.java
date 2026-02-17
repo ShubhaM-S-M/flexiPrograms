@@ -13,5 +13,7 @@ class ArrayList1
 		System.out.println("Size:"+fruits.size());
 		System.out.println("Contains Apple?: "+fruits.contains("Apple"));
 		System.out.println(fruits.get(0));
+		fruits.set(0,"Mango");
+		System.out.println(fruits.get(0));
 	}
 }
